@@ -6,10 +6,9 @@ import { Container, WrapObject, Key, Value } from "./styled";
 
 const Recursive = ({ data, keyName }) => {
   const isArray = typeof data === "object" && Array.isArray(data);
-
   const renderKeyValue = () => (
     <WrapObject>
-      <Key>{keyName}</Key>: <Value>{data.toString()}</Value>
+      <Key>{keyName}{keyName && ":"}</Key> <Value>{data.toString()}</Value>
     </WrapObject>
   );
 
