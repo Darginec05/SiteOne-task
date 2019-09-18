@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   font-size: 20px;
@@ -13,12 +13,16 @@ export const WrapObject = styled.div`
 `;
 
 export const Key = styled.div`
-  color: red;
+  color: #c792ea;
   font-weight: bold;
   margin-right: 10px;
 `;
 
 export const Value = styled.div`
-  color: blue;
+  color: #c3e88d;
   margin-left: 10px;
+`;
+
+export const Mark = styled.div`
+  color: wheat;
 `;

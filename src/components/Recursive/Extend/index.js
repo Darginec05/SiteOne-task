@@ -1,10 +1,11 @@
 import React, { memo, useState } from "react";
-import { Key, WrapObject } from "../styled";
+
+import { Key, WrapObject, Mark } from "../styled";
 
 const Extend = ({ children, propKey, isArray }) => {
   const [isOpenChilds, setOpenChilds] = useState(false);
   
-  const getMark = mark => (isArray ? `[ ${mark} ]` : `{ ${mark} }`);
+  const getMark = mark => (isArray ? <Mark>{`[ ${mark} ]`}</Mark> : <Mark>{ `{ ${mark} }`}</Mark>);
 
   return (
     <>
