@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SiteOne-task/static/css/main.eba22878.chunk.css",
+    "main.js": "/SiteOne-task/static/js/main.3153e629.chunk.js",
+    "main.js.map": "/SiteOne-task/static/js/main.3153e629.chunk.js.map",
+    "runtime~main.js": "/SiteOne-task/static/js/runtime~main.da830bef.js",
+    "runtime~main.js.map": "/SiteOne-task/static/js/runtime~main.da830bef.js.map",
+    "static/js/2.480b0b60.chunk.js": "/SiteOne-task/static/js/2.480b0b60.chunk.js",
+    "static/js/2.480b0b60.chunk.js.map": "/SiteOne-task/static/js/2.480b0b60.chunk.js.map",
+    "index.html": "/SiteOne-task/index.html",
+    "precache-manifest.afb3d67abc35ba6f12086587b05b9367.js": "/SiteOne-task/precache-manifest.afb3d67abc35ba6f12086587b05b9367.js",
+    "service-worker.js": "/SiteOne-task/service-worker.js",
+    "static/css/main.eba22878.chunk.css.map": "/SiteOne-task/static/css/main.eba22878.chunk.css.map"
+  }
+}
