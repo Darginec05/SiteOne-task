@@ -18,7 +18,7 @@ const Recursive = ({ data, keyName }) => {
           <Recursive
             key={idx}
             data={item}
-            keyName={Object.getOwnPropertyNames(data)[idx]}
+            keyName={!isArray && Object.getOwnPropertyNames(data)[idx]}
           />
         );
       })}

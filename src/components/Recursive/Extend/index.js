@@ -1,15 +1,16 @@
 import React, { memo, useState } from "react";
-import { PropertyName } from "../styled";
+import { Key, WrapObject } from "../styled";
 
-const Extend = ({ children, keyName, isArray }) => {
+const Extend = ({ children, propKey, isArray }) => {
   const [isOpenChilds, setOpenChilds] = useState(false);
+  
+  const getMark = mark => (isArray ? `[ ${mark} ]` : `{ ${mark} }`);
 
   return (
     <>
-      <PropertyName onClick={() => setOpenChilds(!isOpenChilds)}>
-        {keyName}
-        {isOpenChilds ? (isArray ? "[ - ]" : "{ - }") : (isArray ? "[ + ]" : "{ + }")}
-      </PropertyName>
+      <WrapObject onClick={() => setOpenChilds(!isOpenChilds)}>
+        <Key>{propKey}{propKey && ":"}</Key> {isOpenChilds ? getMark("-") : getMark("+")}
+      </WrapObject>
       {isOpenChilds && children}
     </>
   );

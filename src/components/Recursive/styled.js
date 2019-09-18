@@ -9,6 +9,7 @@ export const Container = styled.div`
 
 export const WrapObject = styled.div`
   display: flex;
+  cursor: pointer;
 `;
 
 export const Key = styled.div`
@@ -20,11 +21,4 @@ export const Key = styled.div`
 export const Value = styled.div`
   color: blue;
   margin-left: 10px;
-`;
-
-export const PropertyName = styled.div`
-  color: #008080;
-  font-size: 14px;
-  font-weight: bold;
-  cursor: pointer;
 `;
