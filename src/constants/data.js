@@ -7,7 +7,8 @@ export default [
     },
     body: {
       label: "omlet"
-    }
+    },
+    fields: ["lolol", "olol"]
   },
   {
     userId: 2,

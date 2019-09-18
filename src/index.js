@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import json from "./constants";
-import Recursive from './Recursive';
+import json from "./constants/data";
+import Recursive from './components/Recursive';
 
-const App = () => <Recursive data={json} keyName={null} rootProperty={true}/>
+const App = () => <Recursive data={json} keyName={null}/>
 
 ReactDOM.render(<App />, document.getElementById("root"));
